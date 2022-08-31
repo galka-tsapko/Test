@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    background: #E5E5E5;
+}
+
+.header {
+    padding: 40px 719.5px 0px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.product-cards {
+    display: flex;
+    padding: 0px 370px;
+}
+
+.product-card {
+    margin: 40px 20px;
+    width: 380px;
+    height: 482px;
+    border-radius: 12px;
+    background-image: url('images/1.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+}
+
+.tag {
+    display: flex;
+    padding-top: 16.33px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.new {
+    margin: 0px 17px 0px 16.73px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FDCFF3;
+    border-radius: 12px;
+    width: 110px;
+    height: 24px;
+    align-items: center;
+    text-align: center;    
+}
+
+.last {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFCF56;
+    border-radius: 12px;
+    width: 134.41px;
+    height: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card-title {
+    padding: 234.75px 24px 0px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2F2F2F;
+}
+
+.product-card-info {
+    padding: 16px 24px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F2F2F;
+}
+
+.button {
+    margin: 0px 24px 24px 24px;
+    width: 332px;
+    height: 48px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    border-style: solid;
+    text-transform: uppercase;
+}
+
+.basket {
+    color: #42940F;
+    border-color: #42940F;
+    background: #FFFFFF;
+}
+
+.basket:hover {
+    cursor: pointer;
+    background: #42940F;
+    color: #FFFFFF;
+}
+
+.basket:active {
+    cursor: pointer;
+    background: #1F5200;
+    color: #FFFFFF;
+}
+
+.end {
+    color: #FFFFFF;
+    border-color: #4E4E4E;
+    background: #4E4E4E;
+}

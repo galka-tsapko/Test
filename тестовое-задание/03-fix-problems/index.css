@@ -1,0 +1,43 @@
+body, html:not(div) > head ~ body > * > * > figure > img ~ * {
+    margin: 0.0000001em;
+}
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    background: cornsilk;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+article > *:first-child + *:not(:last-child) {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+}
+
+html:not(div) > head ~ body > * > * > figure > img,
+html:not(div) > head ~ body > * > * > figure > img ~ * {
+    margin: 8px 0 0;
+    font-style: italic;
+    text-align: center;
+}
+
+html:not(div) > head ~ body > * > * > figure > img:first-child {
+    margin-top: 0;
+}
+
+body > main > .article, .article {
+    max-width: 680px;
+}
+
+[class="article"] {
+    padding: 24px;
+    font-family: sans-serif;
+}
+
+[class="article"] > h1:not(h2, h3, h4, h5, h6) {
+    margin: 0 0 1.5rem 0;
+    color: palevioletred
+}
